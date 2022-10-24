@@ -1,0 +1,57 @@
+.card {
+    display: flex;
+    background-color: var(--branco);
+    border-radius: 15px;
+    padding: 1em;
+    line-height: 1.3em;
+    margin: 1em;
+}
+
+.card__titulo {
+    font-weight: 700;
+    color: var(--laranja);
+    font-size: 16px;
+}
+
+.card__subtitulo {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--azul-escuro);
+}
+
+.card__texto {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--preto);
+}
+
+.coluna__primeira {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.card__icon {
+    width: 2.5em;
+}
+
+.coluna__segunda {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__imagem {
+    margin-bottom: 2em;
+}
+
+.card__saiba-mais {
+    font-weight: 700;
+    color: var(--branco);
+    font-size: 16px;
+    background-color: var(--laranja);
+    padding: 1em;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
