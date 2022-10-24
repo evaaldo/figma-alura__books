@@ -71,7 +71,7 @@
         <div class="card">
             <div class="coluna__primeira">
                 <h3 class="card__titulo">Talvez você também se interesse por...</h3>
-                <h3 class="card__subtitulo">Angular 11 e Firebase</h3>
+                <h2 class="card__subtitulo">Angular 11 e Firebase</h3>
                 <p class="card__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
                 <div class="coluna__imagens">
                     <img src="Favoritos.svg" alt="Adicionar aos favoritos" class="card__icon">
@@ -84,6 +84,70 @@
             </div>
         </div>
     </section>
+    <section class="carrosel">
+        <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="Acessibilidade.svg" alt="Acessibilidade"></div>
+                <div class="swiper-slide"><img src="ApacheKafka.svg" alt="ApacheKafka"></div>
+                <div class="swiper-slide"><img src="Portugol.svg" alt="Portugol"></div>
+                <div class="swiper-slide"><img src="Guia Front-end.svg" alt="Guia Front-end"></div>
+                <div class="swiper-slide"><img src="Tuning.svg" alt="Tuning"></div>
+                ...
+            </div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="card">
+            <div class="coluna__primeira">
+                <img src="Estrelinhas.svg" alt="Avaliação" class="coluna__primeira-avaliacao">
+                <h3 class="card__titulo">Autora do Mês</h3>
+                <h2 class="card__subtitulo">Juliana Agarikov</h3>
+                <p class="card__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                <div class="coluna__imagens">
+                    <img src="Favoritos.svg" alt="Adicionar aos favoritos" class="card__icon">
+                    <img src="Compras.svg" alt="Comprar" class="card__icon">
+                </div>
+            </div>
+            <div class="coluna__segunda">
+                <img src="Perfil-escritora 1.svg" alt="Angular" class="card__imagem">
+                <a href="#" class="info__botao">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+    <section class="visitados">
+        <h2 class="visitados__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <div class="visitados__linha">
+            <a href="#" class="info__botao">Android</a>
+            <a href="#" class="info__botao">Marketing Digital</a>
+            <a href="#" class="info__botao">Agile</a>
+        </div>
+        <div class="visitados__linha">
+            <a href="#" class="info__botao">Startups</a>
+            <a href="#" class="info__botao">HTML & CSS</a>
+            <a href="#" class="info__botao">Python</a>
+        </div>
+        <div class="visitados__linha">
+            <a href="#" class="info__botao">OO</a>
+            <a href="#" class="info__botao">Java</a>
+        </div>
+    </section>
+    <section class="contato">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <h3 class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</h3>
+        <input type="search" class="contato__cadastro" placeholder="Cadastre seu e-mail">
+    </section>
+    <footer class="rodape">
+        <h3 class="rodape__titulo">Grupo Alura</h3>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {

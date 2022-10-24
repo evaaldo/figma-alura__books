@@ -1,0 +1,29 @@
+.visitados {
+    padding: 1.1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background: var(--azul-degrade);
+}
+
+.visitados__titulo {
+    color: var(--branco);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.visitados__linha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8em;
+}
+
+.visitados__linha .info__botao {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+}

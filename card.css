@@ -3,8 +3,9 @@
     background-color: var(--branco);
     border-radius: 15px;
     padding: 1em;
-    line-height: 1.3em;
     margin: 1em;
+    line-height: 1.1em;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
 }
 
 .card__titulo {
@@ -28,11 +29,12 @@
 .coluna__primeira {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 0.5em;
 }
 
 .card__icon {
     width: 2.5em;
+    margin-top: 2em;
 }
 
 .coluna__segunda {
@@ -44,7 +46,7 @@
     margin-bottom: 2em;
 }
 
-.card__saiba-mais {
+.info__botao {
     font-weight: 700;
     color: var(--branco);
     font-size: 16px;
@@ -54,4 +56,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.card__subtitulo, .card__texto, .coluna__imagens {
+    padding-right: 2em;
+}
+
+.coluna__primeira-avaliacao {
+    width: 5em;
 }

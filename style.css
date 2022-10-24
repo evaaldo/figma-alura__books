@@ -3,8 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 @import url("carrosel.css");
 @import url("card.css");
+@import url("visitados.css");
+@import url("contato.css");
+@import url("rodape.css");
 
 :root {
+    --cinza: #858585;
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
     --laranja: #EB9B00;
