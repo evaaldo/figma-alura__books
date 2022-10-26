@@ -27,6 +27,7 @@
 }
 
 .contato__cadastro::placeholder {
+    font-family: var(--fonte-principal);
     align-items: center;
     padding-left: 2.5em;
     font-weight: 400;
