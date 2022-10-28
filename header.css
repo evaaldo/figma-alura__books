@@ -110,8 +110,13 @@
     .lista-menu {
         display: none;
         position: absolute;
+        left: 34%;
         top: 100%;
         width: 20vw;
+        text-align: center;
     }
 
+    .lista-menu__titulo {
+        display: none;
+    }
 }
